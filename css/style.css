@@ -1,0 +1,126 @@
+body {
+  overflow: scroll;
+}
+
+.topnav {
+  background-color: #02008e;
+  overflow: hidden;
+  text-align: center;
+}
+.topnav a {
+  display: inline-block;
+    color: rgb(255, 230, 0);
+    text-align: center;
+    padding: 16px;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.topnav a:hover {
+  background-color: #111111;
+}
+.topnav .icon {
+  display: none;
+}
+
+#carusel {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .titlu-tabel {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  
+  /* setari footer*/
+  #footer-social {
+    text-align: right;
+  }
+  #footer-copyright {
+    text-align: left;
+    padding-left: 20px;
+  }  
+  #footer-social a{
+    padding: 8px;
+  }
+
+#tabel-palmares td{
+  padding-right: 16px;
+}
+
+  
+   /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .ascunde, .ascunde-u5m, .ascunde-Nationalitate {
+    display:none;
+  }
+  .center {
+    width: 90%;
+  }
+  .stanga, .dreapta {
+    display: none;
+    background-color: black;
+  }
+  .topnav {text-align: left;}
+  .topnav a:not(:first-child) {
+      display: none;
+    }
+  .topnav  a.icon {
+    float: right;
+    display: block;
+  }
+  #footer-social {
+    text-align: center;
+  }
+  #footer-copyright {
+    text-align: center;
+  }
+
+  
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {  
+    float: none;
+    display: block;
+    text-align: center;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600 px) {
+  .ascunde-u5m {
+    display:none;
+  }
+  .center {
+    width: 70%;
+  }
+
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+ 
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+ 
+}
